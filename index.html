@@ -4,189 +4,190 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <title>ThoughtFire Studio — Thoughtful technology for humans.</title>
-  <meta name="description" content="Done-for-you websites, tools, and automations for small business owners who don't have time to think about software. ThoughtFire Studio handles it all." />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <meta name="description" content="Fresh eyes on your business workflows — we find the surprising places where automation saves you time, cuts costs, and makes you more money." />
   <link rel="stylesheet" href="tokens.css" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<!-- ── Ring mark SVG definition (reused by reference) ─────────── -->
-<svg width="0" height="0" style="position:absolute" aria-hidden="true">
-  <defs>
-    <symbol id="tf-ring" viewBox="0 0 40 40">
-      <!-- Filled circle with cutout — the ThoughtFire mark -->
-      <circle cx="20" cy="20" r="20" fill="currentColor" />
-      <circle cx="20" cy="20" r="9" fill="white" />
-    </symbol>
-  </defs>
-</svg>
+<!-- ── HERO ──────────────────────────────────────────────────── -->
+<section class="hero" id="top">
+  <div class="hero-center">
 
-
-<!-- ── NAV ────────────────────────────────────────────────────── -->
-<nav class="site-nav" id="site-nav" role="navigation" aria-label="Site navigation">
-  <div class="nav-inner">
-    <a href="#top" class="nav-brand" aria-label="ThoughtFire Studio — home">
-      <svg class="nav-ring" aria-hidden="true" style="color:var(--tf-ember)">
-        <use href="#tf-ring" />
+    <!-- Glyph + orbiting text -->
+    <div class="orbit-wrap" aria-label="ThoughtFire Studio">
+      <svg class="glyph" viewBox="0 0 100 100" aria-hidden="true">
+        <circle cx="50" cy="50" r="50" fill="var(--tf-ember)" />
+        <circle cx="50" cy="50" r="22" fill="var(--hero-bg)" />
       </svg>
-      <span class="nav-wordmark">ThoughtFire Studio</span>
-    </a>
-    <a href="mailto:david@thoughtfire.studio" class="nav-cta">
-      Book a call
-    </a>
+      <svg class="orbit-svg" viewBox="0 0 300 300" aria-hidden="true">
+        <defs>
+          <path id="orbit-path"
+            d="M150,150 m-118,0 a118,118 0 1,1 236,0 a118,118 0 1,1 -236,0"/>
+        </defs>
+        <text class="orbit-text">
+          <textPath href="#orbit-path" startOffset="0%" textLength="741">
+            ThoughtFire Studio &nbsp;·&nbsp; ThoughtFire Studio &nbsp;·&nbsp; ThoughtFire Studio &nbsp;·&nbsp; ThoughtFire Studio &nbsp;·&nbsp;
+          </textPath>
+        </text>
+      </svg>
+    </div>
+
+    <!-- Animated phrase -->
+    <div class="hero-tagline">
+      <span class="we-help">We help you</span>
+      <div class="phrase-wrap" aria-live="polite" aria-atomic="true">
+        <span class="phrase" id="phrase">work smarter, not harder.</span>
+      </div>
+    </div>
+
   </div>
-</nav>
+
+  <a href="#ad" class="scroll-cue" aria-label="Read more">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M12 5v14M5 12l7 7 7-7"/>
+    </svg>
+  </a>
+</section>
 
 
-<!-- ── HERO ───────────────────────────────────────────────────── -->
-<header class="hero" id="top">
-  <div class="hero-inner">
-    <span class="hero-label reveal">ThoughtFire Studio</span>
-    <h1 class="hero-headline reveal d1">
-      Thoughtful technology
-      <span class="line-italic">for humans.</span>
+<!-- ── NEWSPAPER AD ───────────────────────────────────────────── -->
+<section class="ad" id="ad">
+  <div class="ad-inner">
+
+    <!-- Masthead -->
+    <div class="ad-masthead">
+      <div class="ad-rule-line"></div>
+      <span class="ad-kicker">A message for small business owners</span>
+      <div class="ad-rule-line"></div>
+    </div>
+
+    <h1 class="ad-headline">
+      Are You Still Running Your Business<br>
+      Like It's&nbsp;2005?
     </h1>
-    <p class="hero-sub reveal d2">
-      Done-for-you websites, tools, and automations for small business owners who don't have time to think about software.
+
+    <div class="ad-rule-heavy"></div>
+
+    <p class="ad-deck">
+      Most small businesses have five to fifteen hours of unnecessary work every week.
+      You just don't know where they are yet.
     </p>
-    <a href="mailto:david@thoughtfire.studio" class="hero-cta reveal d3">
-      Let's talk <span class="arrow">→</span>
-    </a>
-  </div>
-</header>
 
+    <div class="ad-rule-thin"></div>
 
-<!-- ── WHAT WE DO ─────────────────────────────────────────────── -->
-<section class="work" id="work">
-  <div class="container">
-    <div class="work-intro">
-      <span class="eyebrow reveal">The work</span>
-      <h2 class="reveal d1">We build it. You use it.</h2>
-      <p class="reveal d2">We handle everything — design, build, and ongoing changes. You don't touch code. You just get a business that works better.</p>
-    </div>
-    <div class="work-grid">
-      <div class="work-card reveal d1">
-        <div class="work-card-mark" aria-hidden="true"></div>
-        <h3>Websites</h3>
-        <p>A site that actually represents you. Clear, fast, built to be found by the right people.</p>
+    <!-- Body copy -->
+    <div class="ad-body">
+      <div class="ad-col">
+        <p>Here's what we know after working with dozens of founder-led businesses: <strong>the bottlenecks are almost never where you think they are.</strong></p>
+        <p>You're probably doing some version of this right now — copy-pasting information between systems, chasing down the same kinds of emails every week, manually triggering things that could trigger themselves, or keeping a mental list of tasks that could run on autopilot.</p>
+        <p>None of it is your fault. You built your business around your craft, not around software systems. That's as it should be. But at some point, the admin overhead starts eating the business alive.</p>
       </div>
-      <div class="work-card reveal d2">
-        <div class="work-card-mark" aria-hidden="true"></div>
-        <h3>Booking &amp; Automations</h3>
-        <p>Online booking, customer follow-ups, review requests. The repetitive stuff, handled.</p>
-      </div>
-      <div class="work-card reveal d3">
-        <div class="work-card-mark" aria-hidden="true"></div>
-        <h3>Custom Tools</h3>
-        <p>Something specific to how you run your business — built around you, not a generic template.</p>
+      <div class="ad-col">
+        <p><strong>ThoughtFire Studio brings fresh eyes to your operation.</strong> We sit down with you, walk through how your business actually runs day to day, and find the specific places where a well-placed automation or better tool hands you back real hours every week.</p>
+        <p>Sometimes it's a booking system that eliminates the back-and-forth. Sometimes it's connecting two tools that should already be talking to each other. Sometimes it's a custom dashboard that shows you what matters without the noise.</p>
+        <p>The surprises are the best part. Business owners consistently tell us they didn't expect it to be that simple — or that impactful.</p>
       </div>
     </div>
+
+    <!-- Pull quote -->
+    <div class="ad-pullquote">
+      <div class="ad-rule-line"></div>
+      <blockquote>
+        "The bottlenecks are almost never where you think they are."
+      </blockquote>
+      <div class="ad-rule-line"></div>
+    </div>
+
+    <!-- What's at stake -->
+    <div class="ad-stakes">
+      <h2 class="ad-stakes-head">What's Actually on the Table</h2>
+      <div class="ad-stakes-grid">
+        <div class="stake">
+          <span class="stake-label">Time back</span>
+          <p>Hours you're currently spending on things a system could handle.</p>
+        </div>
+        <div class="stake">
+          <span class="stake-label">Fewer mistakes</span>
+          <p>Manual processes create errors. Automation doesn't forget steps.</p>
+        </div>
+        <div class="stake">
+          <span class="stake-label">More revenue</span>
+          <p>Better follow-up, faster booking, less friction for your customers.</p>
+        </div>
+        <div class="stake">
+          <span class="stake-label">Lower overhead</span>
+          <p>Cut the tools, subscriptions, and labor that aren't earning their keep.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="ad-rule-heavy"></div>
+
+    <!-- CTA + Form -->
+    <div class="ad-offer">
+      <h2 class="ad-offer-head">
+        Get a Fresh Set of Eyes on Your Business — Free
+      </h2>
+      <p class="ad-offer-sub">
+        Fill out the form. We'll reach out to schedule a real conversation — no pitch, no deck, no pressure.
+        Just a look at how you work and where the time is going.
+        <strong>If we find something useful, we'll tell you. If we don't, we'll tell you that too.</strong>
+      </p>
+
+      <form class="contact-form" id="contact-form" novalidate>
+        <div class="field">
+          <label for="f-name">Your name</label>
+          <input type="text" id="f-name" name="name" placeholder="Jane Smith"
+                 required autocomplete="name" />
+        </div>
+        <div class="field">
+          <label for="f-email">Email address</label>
+          <input type="email" id="f-email" name="email" placeholder="jane@yourbusiness.com"
+                 required autocomplete="email" />
+        </div>
+        <div class="field">
+          <label for="f-note">
+            Tell us about your business
+            <span class="field-optional">(optional)</span>
+          </label>
+          <textarea id="f-note" name="note" rows="4"
+                    placeholder="What you do, how big your team is, what's eating your time…"></textarea>
+        </div>
+        <div class="field-submit">
+          <button type="submit" class="submit-btn" id="submit-btn">
+            Send it &nbsp;→
+          </button>
+          <p class="field-fine">No spam. No sales calls you didn't ask for.</p>
+        </div>
+        <div class="form-success" id="form-success" hidden>
+          <strong>Got it — thank you.</strong> We'll be in touch within a day or two.
+        </div>
+      </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="ad-footer">
+      <div class="ad-rule-line"></div>
+      <div class="ad-footer-inner">
+        <svg class="footer-glyph" viewBox="0 0 40 40" aria-hidden="true">
+          <circle cx="20" cy="20" r="20" fill="var(--tf-ember)" />
+          <circle cx="20" cy="20" r="9" fill="var(--tf-cream)" />
+        </svg>
+        <div>
+          <div class="footer-name">ThoughtFire Studio</div>
+          <div class="footer-tag">Thoughtful technology for humans.</div>
+        </div>
+      </div>
+      <div class="footer-copy">
+        &copy; <span id="yr"></span> ThoughtFire Studio LLC
+        &ensp;·&ensp;
+        <a href="mailto:david@thoughtfire.studio">david@thoughtfire.studio</a>
+      </div>
+    </footer>
+
   </div>
 </section>
-
-
-<!-- ── WHO WE SERVE ───────────────────────────────────────────── -->
-<section class="serve" id="serve">
-  <div class="container">
-    <div class="serve-inner">
-      <div class="serve-left">
-        <span class="eyebrow reveal">Who this is for</span>
-        <h2 class="reveal d1">Founder-led businesses that are <em>good at what they do.</em></h2>
-        <div class="rule reveal d2" aria-hidden="true"></div>
-        <p class="reveal d2">
-          You're not failing. You're succeeding — but the success has a cost you didn't expect. You're doing the work, running the business, and trying to keep up with the technology side too. We take that last part off your plate. Completely.
-        </p>
-      </div>
-      <div class="serve-right">
-        <ul class="serve-bullets" aria-label="Who ThoughtFire serves">
-          <li class="reveal d1">
-            <span>Service businesses: trades, landscapers, RV techs, operators</span>
-          </li>
-          <li class="reveal d2">
-            <span>$300K–$2M revenue — you're established, not just starting out</span>
-          </li>
-          <li class="reveal d3">
-            <span>You feel the pull between doing the work and running the business</span>
-          </li>
-          <li class="reveal d4">
-            <span>You'd rather spend that time on the work that actually matters</span>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<!-- ── HOW IT WORKS ───────────────────────────────────────────── -->
-<section class="how" id="how">
-  <div class="container">
-    <div class="how-intro">
-      <span class="eyebrow reveal">How we work</span>
-      <h2 class="reveal d1">Simple. <em>Personal.</em></h2>
-    </div>
-    <div class="how-steps">
-      <div class="how-step reveal d1">
-        <span class="step-num" aria-hidden="true">01</span>
-        <h3>A real conversation</h3>
-        <p>We talk first. No forms, no questionnaires. Just a real conversation about your business and what you actually need.</p>
-      </div>
-      <div class="how-step reveal d2">
-        <span class="step-num" aria-hidden="true">02</span>
-        <h3>We build it</h3>
-        <p>We handle everything. Design, copy, technical setup. You give feedback in plain English. We handle the rest.</p>
-      </div>
-      <div class="how-step reveal d3">
-        <span class="step-num" aria-hidden="true">03</span>
-        <h3>Ongoing, not one-and-done</h3>
-        <p>When something needs changing, you ask and it gets done. No support tickets. No waiting weeks.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<!-- ── CONTACT ────────────────────────────────────────────────── -->
-<section class="contact" id="contact">
-  <div class="container">
-    <div class="contact-inner">
-      <span class="eyebrow reveal">Get in touch</span>
-      <h2 class="reveal d1">Let's talk about your business.</h2>
-      <p class="reveal d2">A 30-minute conversation. No pitch, no pressure. We'll figure out together if it makes sense.</p>
-      <a href="mailto:david@thoughtfire.studio" class="contact-cta reveal d3">
-        Send a message <span class="arrow">→</span>
-      </a>
-      <span class="contact-direct reveal d4">
-        Or email directly: <a href="mailto:david@thoughtfire.studio">david@thoughtfire.studio</a>
-      </span>
-    </div>
-  </div>
-</section>
-
-
-<!-- ── FOOTER ─────────────────────────────────────────────────── -->
-<footer>
-  <div class="container">
-    <div class="footer-inner">
-      <div>
-        <a href="#top" class="footer-brand" aria-label="ThoughtFire Studio — back to top">
-          <svg class="footer-ring" aria-hidden="true" style="color:var(--tf-ember)">
-            <use href="#tf-ring" />
-          </svg>
-          <span class="footer-wordmark">ThoughtFire Studio</span>
-        </a>
-        <div class="footer-tagline">Thoughtful technology for humans.</div>
-      </div>
-    </div>
-    <div class="footer-credit">
-      &copy; <span id="yr"></span> ThoughtFire Studio LLC
-    </div>
-  </div>
-</footer>
-
 
 <script src="app.js" defer></script>
 </body>
