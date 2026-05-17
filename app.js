@@ -7,14 +7,13 @@ if (yrEl) yrEl.textContent = new Date().getFullYear();
 
 // ── Phrase cycling ────────────────────────────────────────────
 const phrases = [
-  'work smarter, not harder.',
-  'spend more time on the things you love.',
-  'take advantage of technology without lifting a finger.',
-  'stop doing the same repetitive work every week.',
-  'get out of the weeds and back in your zone.',
-  'run a tighter operation with a lot less effort.',
-  'make more money without adding more hours.',
-  'let the software handle the boring stuff.',
+  'outgrown its tools.',
+  'a spreadsheet that\'s starting to crack.',
+  'a bottleneck that isn\'t the people.',
+  'operations held together by memory.',
+  'a back end that doesn\'t match the front.',
+  'a system — it\'s just how things get done.',
+  'more manual work than it should.',
 ];
 
 const phraseEl = document.getElementById('phrase');
