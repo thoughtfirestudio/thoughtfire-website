@@ -8,12 +8,12 @@ if (yrEl) yrEl.textContent = new Date().getFullYear();
 // ── Phrase cycling ────────────────────────────────────────────
 const phrases = [
   'an AI budget. Not an AI system.',
-  'two people getting results nobody can replicate.',
-  'everyone using AI differently — or not at all.',
+  'pressure to use AI and no clear answer on what that means.',
+  'everyone doing something different — or nothing at all.',
   'the tools. Not the shared workflow.',
-  'power users and everyone else.',
+  'a question from leadership you don\'t love answering.',
   'individual habits where a system should be.',
-  'a gap between your best reps and the rest.',
+  'AI spend with nothing concrete to show for it yet.',
 ];
 
 const phraseEl = document.getElementById('phrase');
