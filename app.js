@@ -7,13 +7,13 @@ if (yrEl) yrEl.textContent = new Date().getFullYear();
 
 // ── Phrase cycling ────────────────────────────────────────────
 const phrases = [
-  'the stack. Not the intelligence.',
-  'pre-call prep that takes longer than the call.',
-  'Salesforce. Gong. HubSpot. No single interface.',
-  'reps rebuilding proposals from scratch.',
-  'account context scattered across three tools.',
-  'the tools. Not the system that connects them.',
-  'an AI budget and nothing built yet.',
+  'reps doing 45-minute prep for 30-minute calls.',
+  'proposals rebuilt from scratch every single deal.',
+  'Salesforce, Gong, and email — three tabs, every time.',
+  'account context that lives in no one place.',
+  'hours a week that should already be automated.',
+  'a CRM full of data nobody has time to use.',
+  'tools that don\'t talk. Work that fills the gap.',
 ];
 
 const phraseEl = document.getElementById('phrase');
