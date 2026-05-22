@@ -3,193 +3,52 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <title>ThoughtFire Studio — AI systems for revenue teams that are drowning in tools.</title>
-  <meta name="description" content="I build AI intelligence layers for revenue teams at Series A–B startups. Pre-call briefs, proposal generation, account context on demand — built in 30 days. Working tool on day 31." />
+  <title>ThoughtFire Studio</title>
+  <meta name="description" content="Thoughtful technology for humans." />
   <link rel="stylesheet" href="tokens.css" />
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+<body class="holding">
 
-<!-- ── HERO ──────────────────────────────────────────────────── -->
-<section class="hero" id="top">
-  <div class="hero-center">
+<main class="holding-wrap">
 
-    <!-- Glyph + orbiting text -->
-    <div class="orbit-wrap" aria-label="ThoughtFire Studio">
-      <svg class="glyph" viewBox="0 0 100 100" aria-hidden="true">
-        <circle cx="50" cy="50" r="50" fill="var(--tf-ember)" />
-        <circle cx="50" cy="50" r="22" fill="var(--hero-bg)" />
-      </svg>
-      <svg class="orbit-svg" viewBox="0 0 300 300" aria-hidden="true">
-        <defs>
-          <path id="orbit-path"
-            d="M150,150 m-118,0 a118,118 0 1,1 236,0 a118,118 0 1,1 -236,0"/>
-        </defs>
-        <text class="orbit-text">
-          <textPath href="#orbit-path" startOffset="0%" textLength="741">
-            ThoughtFire Studio &nbsp;·&nbsp; ThoughtFire Studio &nbsp;·&nbsp; ThoughtFire Studio &nbsp;·&nbsp; ThoughtFire Studio &nbsp;·&nbsp;
-          </textPath>
-        </text>
-      </svg>
-    </div>
-
-    <!-- Animated phrase -->
-    <div class="hero-tagline">
-      <span class="we-help">Your team is spending time on</span>
-      <div class="phrase-wrap" aria-live="polite" aria-atomic="true">
-        <span class="phrase" id="phrase">reps doing 45-minute prep for 30-minute calls.</span>
-      </div>
-    </div>
-
-  </div>
-
-  <a href="#ad" class="scroll-cue" aria-label="Read more">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-      <path stroke-linecap="round" stroke-linejoin="round" d="M12 5v14M5 12l7 7 7-7"/>
+  <div class="orbit-wrap" aria-label="ThoughtFire Studio">
+    <svg class="glyph" viewBox="0 0 100 100" aria-hidden="true">
+      <circle cx="50" cy="50" r="50" fill="var(--tf-ember)" />
+      <circle cx="50" cy="50" r="22" fill="var(--hero-bg)" />
     </svg>
-  </a>
-</section>
-
-
-<!-- ── NEWSPAPER AD ───────────────────────────────────────────── -->
-<section class="ad" id="ad">
-  <div class="ad-inner">
-
-    <!-- Masthead -->
-    <div class="ad-masthead">
-      <div class="ad-rule-line"></div>
-      <span class="ad-kicker">For revenue teams that are already paying for the stack</span>
-      <div class="ad-rule-line"></div>
-    </div>
-
-    <h1 class="ad-headline">
-      Your Reps Have the Tools.<br>
-      They Don't Have the&nbsp;Intelligence.
-    </h1>
-
-    <div class="ad-rule-heavy"></div>
-
-    <p class="ad-deck">
-      Salesforce, Gong, HubSpot — you're paying for all of it. But your team is still pulling context manually,
-      rebuilding proposals from scratch, and going into calls less prepared than they should be.
-      The stack is there. Nobody's built the thing that makes it work together.
-    </p>
-
-    <div class="ad-rule-thin"></div>
-
-    <!-- Body copy -->
-    <div class="ad-body">
-      <div class="ad-col">
-        <p>I watched this happen from inside a revenue team. Reps at a SaaS company — smart people, experienced reps — spending 45 minutes before every call opening Salesforce, digging through Gong, pulling email threads, reassembling context that should have just been there.</p>
-        <p>Proposals rebuilt from scratch for every deal. Order forms that took an hour to generate correctly. Hundreds of hours a month, across the team, on work that felt like it should be handled.</p>
-        <p><strong>The bottleneck wasn't effort. It was architecture.</strong> The tools were right. The intelligence layer that connects them — the thing that surfaces the right context at the right moment — didn't exist. So I built it.</p>
-      </div>
-      <div class="ad-col">
-        <p><strong>ThoughtFire Studio builds AI intelligence layers for revenue teams.</strong> Not new software. Not a six-month implementation. A system that sits on top of the tools you already have — Salesforce, Gong, HubSpot, email — and gives your reps one interface to get everything they need.</p>
-        <p>Pre-call briefs in under five minutes. Proposals and order forms that generate correctly the first time. Account history on demand. The kind of context that used to require three tabs and twenty minutes, available in one place.</p>
-        <p>The system I built at Appcues returned over 33 hours a week to a team of 16. That's measurable, not estimated — and it's the same methodology I use to build yours.</p>
-      </div>
-    </div>
-
-    <!-- Pull quote -->
-    <div class="ad-pullquote">
-      <div class="ad-rule-line"></div>
-      <blockquote>
-        "Pre-call prep went from 45 minutes to under 5. On day one."
-      </blockquote>
-      <div class="ad-rule-line"></div>
-    </div>
-
-    <!-- What's at stake -->
-    <div class="ad-stakes">
-      <h2 class="ad-stakes-head">What Changes on Day 31</h2>
-      <div class="ad-stakes-grid">
-        <div class="stake">
-          <span class="stake-label">Pre-call prep</span>
-          <p>Reps walk into every call with full account context — usage data, history, open items — without opening four tabs.</p>
-        </div>
-        <div class="stake">
-          <span class="stake-label">Proposals on demand</span>
-          <p>Branded, accurate proposals generated in minutes — not rebuilt from a previous deal and edited by hand.</p>
-        </div>
-        <div class="stake">
-          <span class="stake-label">Account intelligence</span>
-          <p>Gong transcripts, email threads, CRM data — surfaced automatically, by account, when your reps need them.</p>
-        </div>
-        <div class="stake">
-          <span class="stake-label">No new vendor</span>
-          <p>Not a SaaS subscription. Not a platform dependency. The system your team owns and runs — and that gets smarter as they use it.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="ad-rule-heavy"></div>
-
-    <!-- CTA + Form -->
-    <div class="ad-offer">
-      <h2 class="ad-offer-head">
-        Is Pre-Call Prep or Proposal Generation the Bigger Time Sink?
-      </h2>
-      <p class="ad-offer-sub">
-        That's the question. If you have an answer, we should talk.
-        Fixed scope, 30 days, $15K–$25K flat. <strong>Working tool on day 31 — not a strategy deck, not a retainer, not a new piece of software to manage.</strong>
-        Fill out the form and tell me where your team is losing the most time.
-      </p>
-
-      <form class="contact-form" id="contact-form" novalidate>
-        <div class="field">
-          <label for="f-name">Your name</label>
-          <input type="text" id="f-name" name="name" placeholder="Jane Smith"
-                 required autocomplete="name" />
-        </div>
-        <div class="field">
-          <label for="f-email">Email address</label>
-          <input type="email" id="f-email" name="email" placeholder="jane@yourcompany.com"
-                 required autocomplete="email" />
-        </div>
-        <div class="field">
-          <label for="f-note">
-            Where is your team losing the most time?
-            <span class="field-optional">(optional)</span>
-          </label>
-          <textarea id="f-note" name="note" rows="4"
-                    placeholder="Pre-call prep, proposals, pulling account context, something else — whatever it is, tell me about it."></textarea>
-        </div>
-        <div class="field-submit">
-          <button type="submit" class="submit-btn" id="submit-btn">
-            Send it &nbsp;→
-          </button>
-          <p class="field-fine">No pitch. No pressure. Just a real conversation about whether this makes sense.</p>
-        </div>
-        <div class="form-success" id="form-success" hidden>
-          <strong>Got it — thank you.</strong> I'll be in touch within a day or two.
-        </div>
-      </form>
-    </div>
-
-    <!-- Footer -->
-    <footer class="ad-footer">
-      <div class="ad-rule-line"></div>
-      <div class="ad-footer-inner">
-        <svg class="footer-glyph" viewBox="0 0 40 40" aria-hidden="true">
-          <circle cx="20" cy="20" r="20" fill="var(--tf-ember)" />
-          <circle cx="20" cy="20" r="9" fill="var(--tf-cream)" />
-        </svg>
-        <div>
-          <div class="footer-name">ThoughtFire Studio</div>
-          <div class="footer-tag">AI systems for revenue teams.</div>
-        </div>
-      </div>
-      <div class="footer-copy">
-        &copy; <span id="yr"></span> ThoughtFire Studio LLC
-        &ensp;·&ensp;
-        <a href="mailto:david@thoughtfire.studio">david@thoughtfire.studio</a>
-      </div>
-    </footer>
-
+    <svg class="orbit-svg" viewBox="0 0 300 300" aria-hidden="true">
+      <defs>
+        <path id="orbit-path"
+          d="M150,150 m-118,0 a118,118 0 1,1 236,0 a118,118 0 1,1 -236,0"/>
+      </defs>
+      <text class="orbit-text">
+        <textPath href="#orbit-path" startOffset="0%" textLength="741">
+          ThoughtFire Studio &nbsp;·&nbsp; ThoughtFire Studio &nbsp;·&nbsp; ThoughtFire Studio &nbsp;·&nbsp; ThoughtFire Studio &nbsp;·&nbsp;
+        </textPath>
+      </text>
+    </svg>
   </div>
-</section>
 
-<script src="app.js" defer></script>
+  <div class="holding-text">
+    <p class="holding-name">ThoughtFire Studio</p>
+    <p class="holding-tagline">Thoughtful technology for humans.</p>
+    <a class="holding-email" href="mailto:david@thoughtfire.studio">david@thoughtfire.studio</a>
+  </div>
+
+</main>
+
+<script>
+  // Slow orbit animation
+  const orbitText = document.querySelector('.orbit-text');
+  if (orbitText) {
+    let offset = 0;
+    (function tick() {
+      offset -= 0.04;
+      orbitText.querySelector('textPath').setAttribute('startOffset', offset + '%');
+      requestAnimationFrame(tick);
+    })();
+  }
+</script>
 </body>
 </html>
