@@ -7,13 +7,13 @@ if (yrEl) yrEl.textContent = new Date().getFullYear();
 
 // ── Phrase cycling ────────────────────────────────────────────
 const phrases = [
-  'outgrown its tools.',
-  'a spreadsheet that\'s starting to crack.',
-  'a bottleneck that isn\'t the people.',
-  'operations held together by memory.',
-  'a back end that doesn\'t match the front.',
-  'a system — it\'s just how things get done.',
-  'more manual work than it should.',
+  'the stack. Not the intelligence.',
+  'pre-call prep that takes longer than the call.',
+  'Salesforce. Gong. HubSpot. No single interface.',
+  'reps rebuilding proposals from scratch.',
+  'account context scattered across three tools.',
+  'the tools. Not the system that connects them.',
+  'an AI budget and nothing built yet.',
 ];
 
 const phraseEl = document.getElementById('phrase');
@@ -51,7 +51,7 @@ if (form) {
     btn.disabled    = true;
     btn.textContent = 'Sending…';
 
-    const subject = encodeURIComponent('ThoughtFire — Fresh eyes on my business');
+    const subject = encodeURIComponent('ThoughtFire — AI system for my revenue team');
     const body    = encodeURIComponent(
       `Name: ${name}\nEmail: ${email}` + (note ? `\n\n${note}` : '')
     );
