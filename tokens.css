@@ -116,6 +116,11 @@
   --dur-base:      220ms;
   --dur-slow:      340ms;
 
+  /* Logo pulse — tune these three */
+  --pulse-outer-scale: 1.045; /* how much the outer circle grows at peak */
+  --pulse-inner-scale: 1.09;  /* inner grows more → ring breathes thinner */
+  --pulse-duration:    3.2s;  /* one full inhale + exhale */
+
 
   /* ─── LAYOUT ─────────────────────────────────────────────── */
 

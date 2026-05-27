@@ -58,6 +58,26 @@ body {
   filter: drop-shadow(0 0 32px rgba(199, 93, 58, 0.35));
 }
 
+@keyframes tf-pulse-outer {
+  0%, 100% { transform: scale(1); }
+  50%       { transform: scale(var(--pulse-outer-scale)); }
+}
+@keyframes tf-pulse-inner {
+  0%, 100% { transform: scale(1); }
+  50%       { transform: scale(var(--pulse-inner-scale)); }
+}
+
+.glyph .pulse-outer {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: tf-pulse-outer var(--pulse-duration) ease-in-out infinite;
+}
+.glyph .pulse-inner {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: tf-pulse-inner var(--pulse-duration) ease-in-out infinite;
+}
+
 .orbit-svg {
   position: absolute;
   inset: 0;
